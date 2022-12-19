@@ -6,6 +6,15 @@
    
    roverFunction - enables rover module to recieve RTCM3 sentences, process and output long, lat and alt; Yet to be tested irl.
    
+   ##### Libraries:
+      1. Sparkfun UBlox GNAA Arduino Library - https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library.git
+         
+            - IMPORTANT NOTE: change line 7587 to -> packetCfg.len = 40;
+            
+      2. WiFi - Add via Arduino Library Manager; Only for NTRIP communications
+      
+      3. Wire - enables verification of I2C connection
+   
 ## TODO:
   1. Test roverFunction Script irl.
   2. Fine tune baseStationFunction to be compatable with AUSPOS ECEF input.
