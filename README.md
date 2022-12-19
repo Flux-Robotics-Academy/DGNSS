@@ -19,7 +19,8 @@
    - [ ] Test Rover Function Script irl
    - [x] Fine tune baseStationFunction to be compatable with AUSPOS ECEF input.
    - [ ] Explore NTRIP - transmission of RTCM3 sentences via IP
-         - [ ] NTRIP Casters - security?, price?, compatability?
+
+         - NTRIP Casters - security?, price?, compatability?
    - [ ] Containment of Rover & Base Station Modules
 
 ## READING
