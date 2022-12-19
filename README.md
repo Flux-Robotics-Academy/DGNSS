@@ -18,7 +18,13 @@
 ## TODO:
   1. Test roverFunction Script irl.
   2. Fine tune baseStationFunction to be compatable with AUSPOS ECEF input.
-  3. Explore NTRIP - transmission of RTCM3 sentences via IP 
+  3. Explore NTRIP - transmission of RTCM3 sentences via IP
+
+## READING
+
+   PPP - https://geoscienceaustralia.github.io/ginan/ppp.html
+   
+   RTK vs DGNSS - https://geoscienceaustralia.github.io/ginan/rtk.html
    
 # SETTING UP THE BASE STATION (RADIO LINK)
 
