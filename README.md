@@ -16,9 +16,11 @@
       3. Wire - enables verification of I2C connection
    
 ## TODO:
-  1. Test roverFunction Script irl.
-  2. Fine tune baseStationFunction to be compatable with AUSPOS ECEF input.
-  3. Explore NTRIP - transmission of RTCM3 sentences via IP
+  [] Test roverFunction Script irl.
+  [x] Fine tune baseStationFunction to be compatable with AUSPOS ECEF input.
+  [] Explore NTRIP - transmission of RTCM3 sentences via IP
+         [] NTRIP Casters - security? cost? compatability?
+  []Containment of Rover & Base Station Modules
 
 ## READING
 
