@@ -5,7 +5,7 @@
 //    2. Output Long and Lat - integrate code from getLongLatMoreSerial
 //Modify secrets.h to the correct port and host for the relevant NTRIP caster
 //NEED to workout Method for outputting data to a python script - via USB? via Serial (Radio? I2C???)
-
+//Testing commit
 #include <WiFi.h>
 #include "secrets.h"
 
