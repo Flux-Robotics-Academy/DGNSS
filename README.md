@@ -28,6 +28,10 @@
    PPP - https://geoscienceaustralia.github.io/ginan/ppp.html
    
    RTK vs DGNSS - https://geoscienceaustralia.github.io/ginan/rtk.html
+
+# PPP DATA SUBMISSION
+
+   AUSPOS --> https://gnss.ga.gov.au/auspos
    
 # SETTING UP THE BASE STATION (RADIO LINK)
 
