@@ -40,7 +40,7 @@ void setup() {
   }
   Serial.println(F("u-blox module connected"));
 
-  rover.factoryDefault(); delay(5000);
+  //rover.factoryDefault(); delay(5000);
 
   //Configure Input & Output Ports
   rover.setSerialRate(57600, COM_PORT_UART2);
