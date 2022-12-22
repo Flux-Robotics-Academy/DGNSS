@@ -2,9 +2,11 @@
 ## SCRIPTS:
    baseStationSetup - outputs RAW_RXM data to SD card for submission to AUSPOS for PPP; yet to be tested irl.
    
-   baseStationFunction - set location of base station and enable output of RTCM3 sentences.
+   baseStationFunctionRADIO | baseStationFunctionNTRIP - set location of base station and enable output of RTCM3 sentences.
    
-   roverFunction - enables rover module to recieve RTCM3 sentences, process and output long, lat and alt; Yet to be tested irl.
+   roverFunctionRADIO | roverFunctionNTRIP - enables rover module to recieve RTCM3 sentences, process and output long, lat and alt; Yet to be tested irl.
+   
+   please note that NTRIP scripts have not been fully tested.
    
    ##### Libraries:
       1. Sparkfun UBlox GNAA Arduino Library - https://github.com/sparkfun/SparkFun_u-blox_GNSS_Arduino_Library.git
