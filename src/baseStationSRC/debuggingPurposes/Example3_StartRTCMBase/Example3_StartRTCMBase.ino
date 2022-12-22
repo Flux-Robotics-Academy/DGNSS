@@ -123,7 +123,7 @@ void setup()
     //Start survey
     //The ZED-F9P is slightly different than the NEO-M8P. See the Integration manual 3.5.8 for more info.
     //response = myGNSS.enableSurveyMode(300, 2.000); //Enable Survey in on NEO-M8P, 300 seconds, 2.0m
-    response = myGNSS.enableSurveyMode(60, 25.500); //Enable Survey in, 60 seconds, 5.0m
+    response = myGNSS.enableSurveyMode(60, 5.000); //Enable Survey in, 60 seconds, 5.0m
     //response = myGNSS.enableSurveyModeFull(86400, 2.000); //Enable Survey in, 24 hours, 2.0m
     if (response == false)
     {
