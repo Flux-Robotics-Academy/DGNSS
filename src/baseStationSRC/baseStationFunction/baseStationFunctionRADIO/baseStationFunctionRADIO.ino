@@ -94,10 +94,6 @@ void setup(){
       while (1); //Freeze
     }
 
-  success &= baseStation.setStaticPosition(ecefX, ecefX_HP, ecefY, ecefY_HP, ecefZ, ecefZ_HP);
-  if (!success) Serial.println(F("At least one call to setStaticPosition failed!"));
-
-
   //------CONFIRMATION OF BASE STATION SETUP------
 
   int fix = baseStation.getFixType();
