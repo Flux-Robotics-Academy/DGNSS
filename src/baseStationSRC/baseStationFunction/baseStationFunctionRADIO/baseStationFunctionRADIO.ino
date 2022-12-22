@@ -82,7 +82,7 @@ void setup(){
   }
 
   bool success = true ;
-  
+  //baseStation.factoryDefault(); delay(5000);
   //Serial.println("Configuring Port & Message Type: ");
   baseStation.setI2COutput(COM_TYPE_UBX | COM_TYPE_NMEA | COM_TYPE_RTCM3); // Ensure RTCM3 is enabled --> output RTCM messages from ZED to controller
   baseStation.saveConfigSelective(VAL_CFG_SUBSEC_IOPORT); //Save the current settings to flash and BBR --> reinstate current configuration upon bootup
