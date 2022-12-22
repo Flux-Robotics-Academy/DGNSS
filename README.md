@@ -16,7 +16,7 @@
       3. Wire - enables verification of I2C connection
    
 ## TODO:
-   - [ ] Test Rover Function Script irl
+   - [x] Test Rover Function Script irl
    - [x] Fine tune baseStationFunction to be compatable with AUSPOS ECEF input.
    - [ ] Explore NTRIP - transmission of RTCM3 sentences via IP
 
@@ -28,6 +28,10 @@
    PPP - https://geoscienceaustralia.github.io/ginan/ppp.html
    
    RTK vs DGNSS - https://geoscienceaustralia.github.io/ginan/rtk.html
+
+# PPP DATA SUBMISSION
+
+   AUSPOS --> https://gnss.ga.gov.au/auspos
    
 # SETTING UP THE BASE STATION (RADIO LINK)
 
